@@ -1,0 +1,191 @@
+/* General body and container styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('hotel.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px; /* Verkleinert die Breite der Tabelle */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.auth-links {
+    text-decoration: none;
+    color: #070aa8;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 193, 252, 0.9);
+    
+}
+
+.welcome-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1398f1;
+    text-align: left;
+    position: absolute;
+    top: 3px;
+    left: 50px;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+/* Styling for the room-table */
+.room-table {
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 100px; /* Abstand für die Tabelle nach unten verschieben */
+}
+
+.room-list {
+    width: 100%;
+    max-width: 800px; /* Verkleinert die Tabelle */
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.room-list th, .room-list td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 14px; /* Kleinere Schriftgröße */
+}
+
+.room-list th {
+    background-color: #555; /* Graue Farbe für den Header */
+    color: white;
+}
+
+.room-list tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.room-list tr:hover {
+    background-color: #e2e2e2;
+}
+
+/* Styling für das Dropdown-Menü im "Book Now" Button */
+.room-select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-btn {
+    background-color: #04752a; /* Grüne Farbe für den Button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #036d2f; /* Dunklerer Grünton bei Hover */
+}
+
+.book-btn.occupied {
+    background-color: #d9534f; /* Rote Farbe für den Button, wenn Occupied */
+    cursor: not-allowed;
+}
+
+.book-btn:disabled {
+    background-color: #ccc; /* Graue Farbe für den deaktivierten Button */
+    cursor: not-allowed;
+}
+
+/* Styling für Check-in und Check-out Eingabefelder */
+.check-dates {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.check-dates label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.check-dates input {
+    padding: 8px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Styling für den finalen "Book Now" Button */
+#bookNowButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #16e27c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#bookNowButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Styling für die Section-Title */
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5f6f7;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px rgba(10, 154, 238, 0.9);
+}
+
+
+/* Styling für Check-in und Check-out Felder */
+.check-dates {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.check-dates label {
+    font-family: 'Georgia', sans-serif;
+    font-size: 20px;
+    color: #ffffff; /* Schöne grüne Farbe */
+    text-shadow: 1px 1px 2px rgb(189, 1, 1);
+    margin-right: 5px;
+}
+
+
+
+
+

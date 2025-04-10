@@ -1,0 +1,163 @@
+/* General body and container styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('hotel.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Leicht transparenter Hintergrund */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.admin-links {
+    text-decoration: none;
+    color: #04752a;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+/* Welcome Text */
+.welcome-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1398f1;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+/* Table Styles */
+.room-table {
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.room-list {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.room-list th, .room-list td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.room-list th {
+    background-color: #555;
+    color: white;
+}
+
+.room-list tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.room-list tr:hover {
+    background-color: #e2e2e2;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #04752a;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background: #036d2f;
+}
+
+.btn-danger {
+    background: #d9534f;
+}
+
+.btn-danger:hover {
+    background: #a71d2a;
+}
+
+.btn-primary {
+    background: #1398f1;
+}
+
+.btn-primary:hover {
+    background: #1178d1;
+}
+
+/* Admin Buttons */
+.admin-buttons {
+    margin-bottom: 20px;
+}
+
+.admin-buttons .btn {
+    margin: 5px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    form {
+        width: 90%;
+    }
+}
