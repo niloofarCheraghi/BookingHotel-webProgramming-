@@ -1,18 +1,18 @@
-# 🏨 Booking Hotel Web Application
+Booking Hotel Web Application
 
 A simple and functional hotel booking system developed using **PHP**, **MySQL**, **HTML/CSS**, and a bit of **JavaScript**. This web-based project allows users to register, log in, book and cancel rooms, while administrators can manage rooms through a separate dashboard.
 
-## ✨ Features
+Features
 
-- 🔐 User Authentication (Register, Login, Logout)
-- 👤 Separate Dashboards for Users and Admins
-- 🏨 Admin Room Management (Add, Edit, Delete)
-- 📅 Booking and Cancellation System
-- 📄 Booking Confirmation Page
-- 💾 MySQL Database Integration
-- 🎨 Custom CSS Styling for Different Pages
+-  User Authentication (Register, Login, Logout)
+-  Separate Dashboards for Users and Admins
+-  Admin Room Management (Add, Edit, Delete)
+-  Booking and Cancellation System
+-  Booking Confirmation Page
+-  MySQL Database Integration
+-  Custom CSS Styling for Different Pages
 
-## 📁 Project Structure
+Project Structure
 
 ```
 BookingHotel-webProgramming--main/
@@ -41,7 +41,7 @@ BookingHotel-webProgramming--main/
 └── README.md                   # Project documentation
 ```
 
-## ⚙️ How to Run the Project
+How to Run the Project
 
 1. **Clone or download this repository:**
    ```bash
@@ -69,18 +69,12 @@ BookingHotel-webProgramming--main/
    http://localhost/BookingHotel-webProgramming--main/
    ```
 
-## 🧪 Database Test
 
-To check if the database connection is working, open:
-```
-http://localhost/BookingHotel-webProgramming--main/test_db.php
-```
-
-## 👨‍💻 Developer
+Developer
 
 Web Programming Project  
 Developed by: **Niloufar Cheraghi**
 
-## 📄 License
+License
 
 This project is licensed under the **MIT License**. 
